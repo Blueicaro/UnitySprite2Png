@@ -27,7 +27,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, EditBtn, StdCtrls,
-  Buttons;
+  Buttons, ExtCtrls;
 
 type
 
@@ -40,6 +40,8 @@ type
     ImageList1: TImageList;
     Label1: TLabel;
     Label2: TLabel;
+    Panel1: TPanel;
+    Panel2: TPanel;
     procedure btnGoClick(Sender: TObject);
     procedure DirectoryEdit1Change(Sender: TObject);
     procedure FileNameEdit1Change(Sender: TObject);
@@ -76,11 +78,13 @@ end;
 
 procedure TMainFrm.DirectoryEdit1Change(Sender: TObject);
 begin
+  DirectoryEdit1.Hint:=DirectoryEdit1.Text;
   Validate;
 end;
 
 procedure TMainFrm.FileNameEdit1Change(Sender: TObject);
 begin
+  FileNameEdit1.Hint:=FileNameEdit1.Text;
   Validate;
 end;
 

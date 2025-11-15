@@ -13,6 +13,8 @@ The main function of this application is to **read the `.meta` files** generated
 3.  **Destination Selection:** Select the output directory where the individual extracted sprites will be saved.
 4.  **Processing:** Click the **"Go"** button to start the extraction.
 
+**Here's a preview of the application's interface:**
+![UnitSprite2CGE Application Interface](images/unitysprite2png.png)
 
 
 ---
