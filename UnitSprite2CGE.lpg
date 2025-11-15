@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectGroup FileVersion="2">
+    <Targets>
+      <Target FileName="src/unitysprite2cge.lpi">
+        <BuildModes>
+          <Mode Name="Default"/>
+          <Mode Name="Linux_Debug"/>
+          <Mode Name="Linux_Release"/>
+        </BuildModes>
+      </Target>
+      <Target FileName="src/unitysprite2cge_gui.lpi">
+        <BuildModes>
+          <Mode Name="Default" Compile="True"/>
+          <Mode Name="linux_Debug"/>
+          <Mode Name="Linux_Release"/>
+        </BuildModes>
+      </Target>
+    </Targets>
+  </ProjectGroup>
+</CONFIG>
